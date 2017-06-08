@@ -20,4 +20,4 @@ the common repository. These are many products to help.
 
 - Maven allows for transitive dependencies so that one dependency depends on other dependencies.
 
-- Mave also allos for excluding dependencies from a projects class path.
+- Mave also allos for excluding dependencies from a projects class path. 
