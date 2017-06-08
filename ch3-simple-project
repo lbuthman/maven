@@ -1,0 +1,23 @@
+- Archetype -> an original model or type after which other similar things are patterened; a prototype
+
+- A plugin has a prefix and a goal -> archetype:create
+
+- The POM answers questions like: type of project, project name, and build customizations
+
+- Maven coordinates: groupdId, artifactId, packaging, version
+
+- Goals define parameters that can define sensible default values, thus achieving one example of "convention over configuration".
+
+- When Maven executes a plugin goal, it looks to the POM for guidance and specification.
+
+- In the POM, Maven coordinate identifiers are delimited by colons.
+
+- When a "Mavenized" project is installed in a local repository, it becomes locally available to other projects that wish to
+see it. To do this, merely add a dependency using the unique coordinates for a specific artifact.
+
+- Many libraries required/used on a project are not free or public; these must be manually downloaded and installed or set to
+the common repository. These are many products to help.
+
+- Maven allows for transitive dependencies so that one dependency depends on other dependencies.
+
+- Mave also allos for excluding dependencies from a projects class path.
