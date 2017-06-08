@@ -1,1 +1,21 @@
+- Refer to book for creating license, organization, and developers syntax in the POM.
 
+- Example uses Dom4J and Jaxen for parsing XML, Velocity to format command-line output, and Log4J for logging. See book
+for syntax and usage.
+
+- Find useful plugins -> mvnrespoitory.com
+
+- Directories not added automatically by plugin can be added manually.
+
+- Find syntax for creating Velocity template and Log4J properties file.
+
+- dependency:resolve -> see all dependencies for a project
+- dependency:tree - easier to visualize relationships
+
+- IOUtils has man static functions that make I/O easier. This is added as a test-scoped dependency in the POM. See book
+for syntax.
+
+- Often times, tests need dummy data and resources to complete their tests. The book creates a "resources" directory under
+"scr/test". This is where Maven looks for unit test resources.
+
+- Phases of the Maven Lifecycle can be skipped. Use this section as a reference for syntax.
