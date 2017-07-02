@@ -1,0 +1,3 @@
+1. IntelliJ has a number of provided archetypes given for free.
+    -- explore each by creating a new sub-project
+    -- take notes about concerning the online documentation
