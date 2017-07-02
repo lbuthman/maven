@@ -1,0 +1,3 @@
+- A very simple, hello world like maven project.
+
+- Looks like it might be more up to date that the "simple" archetype.
