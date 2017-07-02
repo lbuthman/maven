@@ -1,3 +1,11 @@
 1. IntelliJ has a number of provided archetypes given for free.
     -- explore each by creating a new sub-project
     -- take notes about concerning the online documentation
+
+Solution Notes 1
+    -- marmalade mojo was skipped because it has to do with game development
+    -- Portlets was skipped because I read briefly about them and they don't seem relevant
+        -> http://archive.oreilly.com/pub/a/java/archive/what-is-a-portlet.html
+    -- There are no differences between "profiles" and "quickstart" archetypes.
+    -- Spring OSGI Bundle seems to have a dependency in Eclipse. Seems kinda weird. I bet there are
+    better Spring archetypes out there.
