@@ -1,0 +1,3 @@
+- Used to create a Maven site.
+
+- This is covered in Chapter 10 of the Maven Definitive Guide book.
