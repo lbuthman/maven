@@ -1,0 +1,3 @@
+- looks to be a trimmed down version of the Maven site archetype
+
+- it lacks most of the directory structure simple has, and may be good if more modification is needed?
