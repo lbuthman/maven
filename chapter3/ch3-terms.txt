@@ -1,1 +1,10 @@
+- Maven coordinates -> elements that uniquely identify a project: groupId, artifactId, packaging, version
+  * there is a fifth, but is being skipped for now in the text
+  
+- name -> provides a human-readable name
 
+- url -> associates the project with a project web site
+
+- groupId -> group, company, team, organization, project, or other group
+
+- artifactId -> represents a single project
