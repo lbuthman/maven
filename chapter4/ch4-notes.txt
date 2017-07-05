@@ -1,3 +1,5 @@
+#fail -> Yahoo! Weather API changed in 2014, thus breaking this exercise
+
 - Refer to book for creating license, organization, and developers syntax in the POM.
 
 - Example uses Dom4J and Jaxen for parsing XML, Velocity to format command-line output, and Log4J for logging. See book
