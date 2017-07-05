@@ -1,1 +1,36 @@
+<<<<<<< Updated upstream
 Ex1 -> follow the steps of the Yahoo! Weather project, map out solution and problems along the way.
+=======
+<Documenting Simple Weather App Steps>
+
+1. use archetype for quickstart type to create template
+2. add build information to pom
+    -- build | plugins | plugin (see details for options)
+3. add organization, licensing, and developer information
+    -- licenses | license (see details for options)
+    -- organization (see details for options)
+    -- developers | developer (see details for options)
+4. add dependencies as needed
+    -- dependencies | dependency
+    -- copy and paste from http://www.mvnrepository.com
+5. define packages and classes
+
+Insight / Follow-up
+
+ala 2. I'm thinking the build | plugins | plugin defines the version of Java, but need to confirm
+    -- upon further inspection, the added plugin is for maven-compiler-plugin, clear for compilation
+
+ala 3. Timezone id is preferred so that it auto-adjusts to daylight savings -> America/Chicago vs. -6
+
+ala 4. The simple weather application will need to complete the following three tasks: retrieve
+       XML data from Yahoo! Weather, parse the XML from Yahoo, and then print formatted output to
+       standard output.
+    -> Instead of doing these manually, the example smartly uses plugins
+    -> To parse the XML response from Yahoo!, we’ll use Dom4J and Jaxen; to format the output of this
+    command-line program, we’ll use Velocity; and we also need to add a dependency for Log4J, which
+    we will be using for logging.
+
+ala 5.
+    -- first create an object to hold weather data, very simple with String attributes and getters/setters
+    -- next created a main object to run main()
+>>>>>>> Stashed changes
