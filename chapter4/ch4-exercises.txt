@@ -1,6 +1,7 @@
-<<<<<<< Updated upstream
 Ex1 -> follow the steps of the Yahoo! Weather project, map out solution and problems along the way.
-=======
+
+Ex2 -> create pseudo-code of program
+
 <Documenting Simple Weather App Steps>
 
 1. use archetype for quickstart type to create template
@@ -33,4 +34,4 @@ ala 4. The simple weather application will need to complete the following three 
 ala 5.
     -- first create an object to hold weather data, very simple with String attributes and getters/setters
     -- next created a main object to run main()
->>>>>>> Stashed changes
+    --
