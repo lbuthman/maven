@@ -1,1 +1,6 @@
+- As projects grow in complexity, it is important to refactor elements in the pom and look for duplication. This
+chapter covers these cases and provides methods to do so correctly.
 
+- One interesting point to call out concerns plugin dependencies. Because of transitive dependencies, many of the
+dependencies of a project will grow over time. If a plugin is upgraded, it may not longer use a certain dependency,
+leading to odd behavior as well as compilation and runtime errors.
